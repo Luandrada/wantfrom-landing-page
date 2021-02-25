@@ -549,13 +549,14 @@ html, body {
       cursor: pointer;
       position: relative;
       z-index: 9;
-      img{
-        width: 50%;
-        margin-top: -28px;
-      }
-      p{
-        color: var(--blue-primary);
-      }
+      text-decoration: none;
+        img{
+          width: 50%;
+          margin-top: -28px;
+        }
+        p{
+          color: var(--blue-primary);
+        }
       &:hover{
         cursor: pointer;
         transform: scale(1.03);
@@ -594,8 +595,8 @@ html, body {
       .carousel-inner{
         .carousel-item{
           border-radius: 25px;
-          padding-left: 10px;
-          padding-right: 10px;
+          padding-left: 0px;
+          padding-right: 20px;
           background-color: transparent;
           .card{
             background-color:#ebece6;
@@ -996,7 +997,7 @@ html, body {
         align-items: center;
         position: relative;
         z-index: 100;
-        top: 12vh;
+        top: 80px;
         left: 0;
         margin-left: 0px !important;
         padding-top: 30px;
@@ -1034,7 +1035,7 @@ html, body {
   }
 
   .cont-img-menu{
-    width: 97%;
+    width: 100%;
     min-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -1043,21 +1044,22 @@ html, body {
     align-items: baseline;
     .navbar-brand{
       img{
-        width: 160px;
-        margin-left: -5px;
+        width: 135px;
+        height: 45px;
+        margin-left: -30px;
       }
     }
     .cont-icon-menu{
       .fa-bars{
         display: block ;
         color: var(--light-blue-x2);
-        font-size: 1.6em;
+        font-size: 1.2em;
       
       }
       .fa-times{
         display: none;
         color: var(--light-blue-x2);
-        font-size: 1.6em;
+        font-size: 1.2em;
       }
     }
   }
@@ -1116,9 +1118,6 @@ html, body {
         }
       }
     }  
-   
- 
-
     //////// FIN seccion 1
 
     //////// Seccion 2
@@ -1140,29 +1139,36 @@ html, body {
             align-items: center;
         }
         #left{
+          position: unset;
             h2{
                 font-size: 28px;
                 top: 6vh;
                 left: 10px;
             }
             .img-varias2{
-            left: 3vw;
             top: 340px;
             width: 85vw;
-            min-width: 280px;
+            min-width: 240px;
+            left: unset !important;
+            right: unset !important;
+            margin-left: auto !important;
+              margin-right: auto !important;
             }
             .img-varias1{
-              left: 12vw;
-              width: 75vw;
+              left: unset !important;
+              right: unset !important;
+              width: 85vw;
               min-width: 250px;
               top: 160px;
               z-index: 5;
+              margin-left: auto !important;
+              margin-right: auto !important;
             }
         }
         #right{
           padding-top: 0;
             .cont-globos{
-                margin-top: -80px;
+                margin-top: -70px;
                 margin-right: 0px;
                 width: 90%;
                 .globo{
@@ -1365,7 +1371,8 @@ html, body {
       flex-direction: column !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left:28% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
       .caja{
         margin-left: auto;
         margin-right: auto;

@@ -661,6 +661,7 @@ html, body {
   cursor: pointer;
   position: relative;
   z-index: 9;
+  text-decoration: none;
 }
 
 .fila-2 .cont-btn-download .boton-download img {
@@ -708,8 +709,8 @@ html, body {
 
 .cont-sec-3 .left .carousel .carousel-inner .carousel-item {
   border-radius: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
+  padding-right: 20px;
   background-color: transparent;
 }
 
@@ -1193,7 +1194,7 @@ html, body {
             align-items: center;
     position: relative;
     z-index: 100;
-    top: 12vh;
+    top: 80px;
     left: 0;
     margin-left: 0px !important;
     padding-top: 30px;
@@ -1227,7 +1228,7 @@ html, body {
     padding-bottom: 40px;
   }
   .cont-img-menu {
-    width: 97%;
+    width: 100%;
     min-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -1242,18 +1243,19 @@ html, body {
             align-items: baseline;
   }
   .cont-img-menu .navbar-brand img {
-    width: 160px;
-    margin-left: -5px;
+    width: 135px;
+    height: 45px;
+    margin-left: -30px;
   }
   .cont-img-menu .cont-icon-menu .fa-bars {
     display: block;
     color: var(--light-blue-x2);
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
   .cont-img-menu .cont-icon-menu .fa-times {
     display: none;
     color: var(--light-blue-x2);
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 }
 
@@ -1327,29 +1329,38 @@ html, body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .cont-sec-2 #left {
+    position: unset;
+  }
   .cont-sec-2 #left h2 {
     font-size: 28px;
     top: 6vh;
     left: 10px;
   }
   .cont-sec-2 #left .img-varias2 {
-    left: 3vw;
     top: 340px;
     width: 85vw;
-    min-width: 280px;
+    min-width: 240px;
+    left: unset !important;
+    right: unset !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .cont-sec-2 #left .img-varias1 {
-    left: 12vw;
-    width: 75vw;
+    left: unset !important;
+    right: unset !important;
+    width: 85vw;
     min-width: 250px;
     top: 160px;
     z-index: 5;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .cont-sec-2 #right {
     padding-top: 0;
   }
   .cont-sec-2 #right .cont-globos {
-    margin-top: -80px;
+    margin-top: -70px;
     margin-right: 0px;
     width: 90%;
   }
@@ -1531,7 +1542,8 @@ html, body {
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
-    margin-left: 28% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .row1 .caja {
     margin-left: auto;
