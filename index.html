@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en" style="width: auto; ">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Segura Nicolas">
+    <meta name="description" content="WantFrom e-commerce">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Ionic icons -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+
+    <!-- Font-awesome fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- favicon básico -->
+    <link rel="shortcut icon" href="https://developer.cdn.mozilla.net/static/img/favicon32.e02854fdcf73.png">
+    <!-- fuente wantfrom -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Want From</title>
+
+</head>
+
+<body id="bodyContent" style=" background-color: white;">
+    <!-- BOTON FLOTANTE WSP -->
+    <div class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5493513069085" target="_blank">
+            <img src="./img/wsp_icon.png" height="60px" width="60px" alt="">
+        </a>
+    </div>
+    <!-- FIN BOTON WSP -->
+    <div>
+        <nav class="navbar navbar-expand-md "
+            style="width: 100%;  background-color: white; height: 13vh; min-height: 80px;">
+            <div class="row" style="width: 100%; margin-top: -40px; background-color: white;">
+               <div class="cont-img-menu">
+                <a class="navbar-brand text-light font-weight-bold  "
+                    style="margin-left: 40px; margin-top: 45px;" href="http://wantfrom.com.es/">
+                    <img id="logo1" src="img/logos/LogoCOpiado1.jpeg" width="200px" height="55px" alt="">
+                </a>
+                <div class="cont-icon-menu">
+                    <i class="fas fa-bars" id="menu" ></i>
+                    <i class="fas fa-times" id="close"></i>
+                </div>
+               </div>
+                
+
+                <div class="" style="margin-right: 0px" id="navbarSupportedContent">
+
+                    <!-- DIV QUE APARECE EN VERSION ESCRITORIO - RESPONSIVE-->
+                    <div class="d-none d-sm-none d-md-block nav-redes">
+                        <div class="icons">
+                            <a href="https://www.facebook.com/wantfrom" target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/wantfrom.es/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/wantfrom/" target="_blank"> <i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    <div class=" nav-cont" id="contenido-menu">
+                        <ul class="navbar-nav" style="position: absolute; right: 50px; bottom: 0;">
+                            <!-- <li class="nav-item" id="barra1">
+                                <a class="nav-link text-light " href="#Nosotros">NOSOTROS</a>
+                                <span class="underline"></span>
+                            </li> -->
+                            <li class="nav-item" id="barra2">
+                                <a class="nav-link text-light" href="#Tu-Tienda">TU TIENDA</a>
+                                <span class="underline"></span>
+                            </li>
+                            <li class="nav-item" id="barra3">
+                                <a class="nav-link text-light" href="#Licencias">LICENCIAS</a>
+                                <span class="underline"></span>
+                            </li>
+                            <li class="nav-item" id="barra4">
+                                <a class="nav-link text-light" href="#FAQ">FAQ</a>
+                                <span class="underline"></span>
+                            </li>
+                            <li class="nav-item" id="barra5">
+                                <a class="nav-link text-light" href="#Contacto">CONTACTO</a>
+                                <span class="underline"></span>
+                            </li>
+                            <!-- <li class="nav-item" id="barra6">
+                                <a class="nav-link text-light" href="#">BLOG</a>
+                                <span class="underline"></span>
+                            </li> -->
+                        </ul>
+                    </div>
+
+                </div>
+               
+            </div>
+        </nav>
+
+    </div>
+
+
+    <!-- SECCION 1 -->
+    <section id="Home" class=" position-relative text-light text-light background-light-blue-x2 section-home">
+
+        <div class="row justify-content-center" style="position: absolute; margin-left: 0px;
+            bottom: 0px; right: 0px; left: 0px; width: 100%; z-index: 2; ">
+            <div class="col-md-12" style="padding: 0px;">
+                <img src="img/fondos/Zócalo-Home.svg" width="auto" style="object-fit: cover;" alt="">
+            </div>
+
+        </div>
+
+        <video src="img/video-nosotros.mp4" id="videoHome" autoplay loop muted poster="" style="opacity: 0.1;"
+            width="100%" height="100%">
+        </video>
+        <div id="Tu-Tienda-content" class="container h-100">
+            <div class="row no-gutters h-100 d-flex justify-content-center" style="padding-top: 0px;">
+
+                <div id="" class="col-md-12 align-self-center text-center info-sec-ppal">
+
+                    <h1 class="font-weight-bold mb-4 primary-wf-text-color "
+                        style="font-family: 'Montserrat Alternates', sans-serif;">Creamos tu <span
+                            style="color: #fff">tienda online</span>
+
+                    </h1>
+
+                    <div class="row justify-content-center sub">
+                        <div class="col-md-8  align-self-center text-center">
+                            <p class="lead mb-5 primary-wf-text-color regularMonts subtitle">
+                                Obténga la licencia de nuestra plataforma e-commerce <br> y desarrolle su negocio en
+                                internet.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Linea stepper -->
+                    <div id="stepLineDiv" class="d-none d-sm-none d-md-block">
+                        <div class="cont-line">
+                            <div class="line">
+
+                            </div>
+                            <div class="circ">
+                                <div class="cont-step">
+                                    <div class="circulo" id="one"> <i class="fas fa-comments" id="icon-step-1"></i>
+                                    </div>
+                                    <p class="item" id="item1">Asesoramiento</p>
+                                </div>
+                                <div class="cont-step">
+                                    <div class="circulo" id="two"><i class="fas fa-laptop-code" id="icon-step-2"></i>
+                                    </div>
+                                    <p class="item item2" id="item2">Implementación</p>
+                                </div>
+                                <div class="cont-step">
+                                    <div class="circulo" id="three"> <i class="fas fa-chalkboard-teacher"
+                                            id="icon-step-3"></i></div>
+                                    <p class="item item3" id="item3">Capacitación</p>
+                                </div>
+                                <div class="cont-step">
+                                    <div class="circulo" id="four"><i class="fas fa-store" id="icon-step-4"></i> </div>
+                                    <p class="item item4" id="item4">¡A vender!</p>
+                                </div>
+                            </div>
+                            <div class="cont-items">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Fin Linea stepper -->
+
+                    <!-- boton contacto -->
+                    <div class="cont-btn-home">
+                        <a href="#Contacto" style="text-decoration: none;">
+                            <div class="boton-home">
+                                <p class="extraBoldMontse">CONTACTO</p>
+                                <img src="img/flecha.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- FIN boton -->
+                </div>
+            </div>
+    </section>
+    <!-- FIN SECCION 1 -->
+
+    <!-- SECCION 2-->
+    <section class=" seccion2 position-relative text-light text-light background-grey-wf">
+        <!-- fondo -->
+        <div id="Licencias" class="row justify-content-center" style="position: absolute; margin-left: 0px;
+        bottom: 0px; right: 0px; left: 0px; width: 100%; z-index: 2; ">
+            <div class="col-md-12" style="padding: 0px;">
+                <img src="img/fondos/Zócalo-NOSOTROS.svg" width="100%" alt="">
+            </div>
+
+        </div>
+
+        <video src="img/video-nosotros2.mp4" id="videoHome2" autoplay loop muted style="opacity: 0.1;" width="100%"
+            height="100%">
+        </video>
+        <!-- FIN fondo -->
+
+        <!-- Contenido  -->
+        <div id="Tu-Tienda-content" class="container-fluid ">
+            <div class="row no-gutters cont-sec-2">
+                <div id="left" class="col-12 col-md-6 ">
+                    <h2 class="extraBoldMontse" id="Tu-Tienda">Llegamos para que <br>tus ventas se potencien.</h2>
+
+                    <img src="img/Home 2.jpg" alt="" class="img-varias2">
+                    <img src="img/Producto Cliente 1.jpg" alt="" class="img-varias1">
+
+
+
+                </div>
+                <div id="right" class=" col-12 col-md-6 text-center">
+                    <div class="cont-globos">
+                        <div class="globo">
+                            <p class="lightMontse texto texto1">Te
+                                asesoramos y capacitamos para que uses tu E-commerce</p>
+
+                            <img class="img1" src="img/globos/globo-chico-celeste.png" alt="">
+                        </div>
+                        <div class="globo">
+                            <img class="img2" src="img/globos/globo-izquierda-azul-grande.png" alt="">
+                            <p class="lightMontse texto2" >Desarrollo propio y a medida
+                            </p>
+
+                        </div>
+                        <div class="globo">
+                            <img class="img3" src="img/globos/globo-grande-celeste.png" alt="">
+                            <p class="lightMontse texto texto3" >Adaptamos
+                                la tienda
+                                con los colores, logo y productos de su marca</p>
+                        </div>
+                        <div class="globo">
+                            <img class="img4" src="img/globos/globo-izquierda-blanco-chico.png" alt="">
+
+                            <p class="lightMontse texto4">Venda
+                                sin comisiones</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row fila-2">
+                <!-- boton contacto -->
+                <div class="cont-btn-download">
+                    <div id="btn-download">
+                        <a href="Brochure-Wantfrom2021.pdf" download="Brochure-Wantfrom 2021"  class="boton-download">
+                            <p class="extraBoldMontse">FICHA TÉCNICA</p>
+                            <img src="img/flecha.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- FIN boton -->
+            </div>
+        </div>
+
+    </section>
+    <!-- FIN SECCION 2 -->
+    <!-- SECCION 3 -->
+    <section class="seccionesPropias sec-3 position-relative text-light background-primary-color"
+        style="padding-bottom: 70px; margin-bottom: -10px;">
+
+        <div class="row justify-content-center" style="position: absolute; margin-left: 0px;
+        bottom: 0px; right: 0px; left: 0px; width: 100%; z-index: 2; ">
+            <div class="col-md-12" style="padding: 0px;">
+                <img src="img/fondos/Zócalo-TUTIENDA.svg" width="100%" alt="">
+            </div>
+
+        </div>
+        <div id="Tu-Tienda-content" class="container h-100">
+            <div class="row no-gutters h-100 d-flex justify-content-center" style="margin-top: 0px; ">
+                <div id="" class="col-md-12 align-self-center text-center">
+                    <p class="extraBoldMontse light-blue-x3-text-color title-sec-3">Adquiera su licencia
+                        y comience a vender on-line <span style="color:#fff ; text-shadow: 1px 1px 2px #71b9f4 ;">sin
+                            comisiones</span>. </p>
+
+                    <div class="row  cont-sec-3">
+                        <div class="left col-12 col-md-7">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                                slide.bs.carousel data-bs-interval="200" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"></li>
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card">
+                                            <h3 class="title extraBoldMontse">E-Learning</h3>
+                                            <p class="info regularMonts">- Gestione y publique cursos con cupo limitado.
+                                            </p>
+                                            <p class="info regularMonts">- Inscripciones en línea a través de la
+                                                pasarela de pago.</p>
+                                            <p class="info regularMonts">- Reportes que miden el desempeño de los
+                                                cursos.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <div class="card">
+                                            <h3 class="title extraBoldMontse">Dropshipping</h3>
+                                            <p class="info regularMonts">- Gestione y publique sus productos sin
+                                                tenerlos en stock.</p>
+                                            <p class="info regularMonts">- Prepare y envíe pedidos con solo un par de
+                                                clics. </p>
+                                            <p class="info regularMonts">- Reportes que miden el desempeño de su
+                                                dropshipping.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <div class="card">
+                                            <h3 class="title extraBoldMontse">E-commerce</h3>
+                                            <p class="info regularMonts">- Gestione y publique sus productos.</p>
+                                            <p class="info regularMonts">- Reciba y envíe los pedidos con solo un par de
+                                                clics. </p>
+                                            <p class="info regularMonts">- Reportes que miden el desempeño de su tienda.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="tildes">
+                                <div class="uno">
+                                    <i class="fas fa-check-circle"></i>
+                                    <p class="regularMonts">Personalizado con los atributos y colores de tu marca</p>
+                                </div>
+                                <div class="dos">
+                                    <i class="fas fa-check-circle"></i>
+                                    <p class="regularMonts">Nuevos clientes potenciales de alcance mundial</p>
+
+                                </div>
+                                <div class="tres">
+                                    <i class="fas fa-check-circle"></i>
+                                    <p class="regularMonts">Asesoramiento brindado por expertos</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-table right col-12  col-md-5 ">
+
+                            <ul style=" padding-left: 0px;  list-style-type: none;">
+                                <!--<li><strong class="amount">$ <span class="big">20</span></strong>/Month</li> -->
+                                <div>
+                                    <!-- <img src="/img/globos/globo-chico-celeste.png" alt=""> -->
+                                    <li id="caracteristicas" class="extraBoldMontse">CARACTERÍSTICAS</li>
+                                    <img src="img/flecha-fina.png" alt="">
+                                </div>
+                                <li>Dominio Propio</li>
+                                <li>Host AWS</li>
+                                <li>Login Facebook & Google</li>
+                                <li>Certificado SSL</li>
+                                <li>PayPal & Mercadopago</li>
+                                <li>Panel de administrador</li>
+                                <li>Reportes</li>
+                                <li>Atencion al cliente</li>
+                                <li> Soporte</li>
+                                <li> A Medida </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECCION 3 -->
+
+    <!-- SECCION 4 -->
+    <section id="FAQ" class="sec-4 position-relative text-light background-light-blue-x3">
+        <div id="Contacto" class="row justify-content-center" style="position: absolute; margin-left: 0px;
+         bottom: 0px; right: 0px; left: 0px; width: 100%; z-index: 2; ">
+            <div class="col-md-12" style="padding: 0px;">
+                <img src="img/fondos/Zócalo-FAQS.svg" width="100%" alt="">
+            </div>
+
+        </div>
+
+        <div id="FAQ-content" class="container h-100">
+            <div class="row no-gutters h-100 d-flex justify-content-center">
+                <div id="accordion-control" style="margin-top: -200px;"
+                    class="col-md-12 align-self-center text-center ">
+                    <p class="title-faq extraBoldMontse">Tenemos las respuestas a todas sus preguntas.</p>
+                    <p style="font-size: 20px; margin-top: -10px;"
+                        class="regularMonts align-self-center text-center subtitle-faq">No dude en comunicarse con
+                        nosotros para despejar cualquier duda.</p>
+                    <div class="row contenedor-faq">
+                        <div class="left-faq col-xs-12 col-sm-12 col-sm-offset-1 col-md-6" style="margin-left: 0px;">
+                            <div class="bg-faq">
+
+                            </div>
+                            <img class="img-ppal" src="/img/tienda-online.jpg" alt="tienda">
+                            <div class="icon">
+                                <img class="icon-img" src="/img/logos/Wantfrom-Iso-Variable3.jpg" alt="">
+                            </div>
+                        </div>
+
+
+                        <!--                     ********************************                        -->
+
+
+                        <div class="col-xs-12 col-sm-12 col-sm-offset-1 col-md-6" style="margin-left: 0px;">
+                            <div class="panel-group" id="accordion2" style="margin-left: 60px;">
+                                <div class="panel">
+                                    <h4 class="panel-title" style="font-size: 21px;text-align: left;">
+                                        <a data-toggle="collapse" data-parent="#accordion-control" href="#collapse5">
+                                            <span></span>¿Cómo puedo adquirir mi Tienda Online? </a>
+                                    </h4>
+                                    <div id="collapse5" style="margin-top: -30px;" class="panel-collapse collapse"
+                                        data-parent="#accordion-control">
+                                        <p>
+                                            Solo deberás llamar o completar el formulario de contacto y nos pondremos en
+                                            contacto contigo para asesorarte y explicarte el proceso de implementación.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="panel">
+
+                                    <h4 class="panel-title" style="font-size: 21px;text-align: left;">
+                                        <a data-toggle="collapse" data-parent="#accordion-control" href="#collapse6">
+                                            <span></span> ¿Qué costo tiene?
+                                        </a>
+
+                                    </h4>
+                                    <div id="collapse6" data-parent="#accordion-control" class="panel-collapse collapse"
+                                        style="margin-top: -30px;">
+                                        <p>
+                                            Al ser diseños personalizado en base a las necesidades de su negocio, luego
+                                            de un asesoramiento se presupuestará.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <h4 class="panel-title" style="font-size: 21px;text-align: left;">
+                                        <a data-toggle="collapse" data-parent="#accordion-control" href="#collapse7">
+                                            <span></span>¿Qué implica una Licencia?</a>
+                                    </h4>
+                                    <div id="collapse7" style="margin-top: -30px;" data-parent="#accordion-control"
+                                        class="panel-collapse collapse">
+                                        <p>
+                                            Adquirir una licencia significa adquirir la autorización de uso de nuestra
+                                            Plataforma ECommerce junto con mantenimiento y actualizaciones, como así
+                                            también asesoramiento comercial.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <h4 class="panel-title" style="font-size: 21px;text-align: left;">
+                                        <a data-toggle="collapse" data-parent="#accordion-control" href="#collapse8">
+                                            <span></span>¿Qué diseño va a tener mi tienda? </a>
+                                    </h4>
+                                    <div id="collapse8" style="margin-top: -30px;" data-parent="#accordion-control"
+                                        class="panel-collapse collapse">
+                                        <p>
+                                            Nuestra empresa trabaja con un diseño orientado a las necesidades y gustos
+                                            de los clientes finales. Por lo que el diseño se irá actualizando a medida
+                                            que se actualicen las versiones de la Licencia.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--el div de abajo es para que la flecha de "comienza ahora" no desaparezca cuando una preg se abre-->
+                    <div style="height: 72px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECCION 4 -->
+
+    <!-- SECCION 5 -->
+    <section class="sec-5 position-relative text-light text-light background-light-blue-x4" style="height: auto">
+
+        <div id="Contacto-content" class="container h-100">
+            <div class="row no-gutters h-100 d-flex justify-content-center"
+                style="padding-bottom: 50px;padding-top: 15px;">
+                <div id="" class="col-md-12 align-self-center text-center">
+                    <div class="row cont-contacto" >
+                        <div class=" left-c col-md-5 col-lg-5 col-sm-12 col-xs-12  justify-content-center align-self-center"
+                            style="height: 450px; text-align: left; ">
+
+                            <p class="tit-contacto extraBoldMontse light-blue-x3-text-color" style="font-size: 30px;">
+                                Comunicate con
+                                nosotros</p>
+                            <p style="font-size: 18px;"> Estos son nuestros medios de contacto:</p>
+
+                            <div class="row ">
+                                <div class="col-xs-12 col-sm-12 col-md-12 ">
+                                    <div class="col-xs-8 col-xs-offset-2 col-sm-10 ">
+                                        <ul class="social-menu "
+                                            style="width: 100%; margin-right: 0px; text-align: left; padding-left: 0px;">
+                                            <li class="item-contact">
+                                                <i class="fas fa-envelope" style="margin-right: 8px;"></i>
+                                                hola@wantfrom.es
+                                            </li>
+                                            <li class="item-contact">
+                                                <img src="./img/flag-spain.svg" class="svg- iconic-signal-strong"
+                                                    style="margin-right: 8px; " width="24px" alt="">
+                                                (+34) 627 16 95 10
+                                            </li>
+                                            <li class="item-contact">
+                                                <img src="./img/Flag_of_Argentina.svg" style="margin-right: 8px;"
+                                                    width="24px" alt="">
+                                                (+54) 9 351 3069085
+                                            </li>
+                                            <li class="item-contact">
+                                                <i class="fas fa-map-marker-alt"
+                                                    style="margin-right: 8px; margin-left: 5px;"></i>
+                                                Barcelona, España.
+                                            </li>
+                                        </ul>
+                                        <div class="icons-contacto">
+                                            <a href="https://www.facebook.com/wantfrom" target="_blank"><i
+                                                    class="fab fa-facebook-square"></i></a>
+                                            <a href="https://www.instagram.com/wantfrom.es/" target="_blank"><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/company/wantfrom/" target="_blank"> <i
+                                                    class="fab fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- SEPARADOR QUE SOLO APARECE EN TAMAÑO SM-->
+                        <div class="d-block   d-md-none d-sm-block col-sm-12" style="height: 70px; ">
+
+                        </div>
+
+                        <div class="right-c col-md-7  col-lg-7 col-sm-12 col-xs-12 justify-content-center align-self-center"
+                            style=" height: 450px; text-align: left; ">
+                            <div class="row  ">
+                                <div class="col-md-12">
+                                    <p class=" tit-contacto2 extraBoldMontse light-blue-x3-text-color"
+                                        style="font-size: 30px;   ">
+                                        Envíanos un mensaje</p>
+                                    <p style="font-size: 18px;"> Completa el formulario y nos comunicaremos contigo.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row justify-content-center background-light-blue-x4"
+                                style="padding-bottom: 30px;">
+                                <div class="col-md-12 " style="padding-left: 0px; " style="width: auto;">
+                                    <form action="enviar.php" id="contact-form" style="width: auto; margin-left: 30px;"
+                                        method="post" class="contact-form" autocomplete="off">
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-6 col-sm-12 col-xs-12  input-form-div">
+                                                <input type="text" class="form-contact" style="width: 100%;" id="name" name="nombre" required>
+                                                <label class="ph-area" for="name">Nombre</label>
+                                            </div>
+                                            <div class="col-md-6 col-sm-2 col-md-offset-4 input-form-div">
+                                                <input type="text" class="form-contact" name="empresa">
+                                                <label class="ph-area" for="name">Empresa</label>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12 col-sm-2 input-form-div">
+                                                <input type="text" class="form-contact" name="email" required>
+                                                <label class="ph-area" for="name">E-mail</label>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-6 col-sm-12 input-form-div ">
+                                                <input type="text" class="form-contact" name="telefono">
+                                                <label class="ph-area" for="name">Teléfono</label>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12 col-md-offset-4 input-form-div">
+                                                <input type="text" class="form-contact " name="ciudad" required>
+                                                <label class="ph-area" for="name">Ciudad</label>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12 col-sm-10 input-form-div" style="height: 100px; ">
+                                                <input type="text" class="form-contact" style="height: 100%;" name="mensaje" required>
+                                                <label class="ph-area" for="name">Mensaje</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12 col-sm-10 input-form-div">
+                                                <button type="submit" class="form-contact btn-enviar-msj button"
+                                                    style=" width: 100%; height: 55px; background-color: #E1CCCC;  margin-top: 30px;">
+                                                    <img src="./img/enviar.svg" style="margin-right: 20px;" width="7%"
+                                                        alt=""></button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 20px;" class="regularMonts ">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECCION 5 -->
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <article>
+            <div class="row1">
+                <div class="caja Contacto">
+                    <h4>Contacto</h4>
+                    <div class=" campo" style="margin-bottom: -1px;">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>(+34) 627 16 95 10</p>
+                    </div>
+                    <div class="campo" style="margin-bottom: -1px;">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>(+54) 9 3513069085</p>
+                    </div>
+                    <div class="campo" style="margin-bottom: -1px;">
+                        <i class="far fa-envelope"></i>
+                        <p>hola@wantfrom.es</p>
+                    </div>
+                    <div class="campo ubic" style="margin-bottom: -1px;">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="direccion">Barcelona, España.</p>
+                    </div>
+                </div>
+
+                <div class="caja ServCliente">
+                    <h4>Wantfrom</h4>
+                    <p><a href="#">¿Quíenes Somos?</a> </p>
+                    <p><a href="#Contacto">Contános tu opinion</a></p>
+                    <p><a href="mailto:hola@wantfrom.es?subject=¡Quiero formar parte de su equipo de trabajo!">Trabajá
+                            con nosotros</a></p>
+                </div>
+
+                <div class="caja Nosotros">
+                    <div class="redes">
+                        <h4>Nuestras Redes</h4>
+                        <div class="iconos">
+                            <a href="https://www.facebook.com/wantfrom" title="Facebook" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/wantfrom.es" title="Instagram" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/wantfrom/" title="Linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="marca">
+                        <h4>Medios de Pago</h4>
+                        <div class="img-pagos">
+                            <!-- <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i> -->
+                            <!-- <i class="fab fa-cc-paypal"></i> -->
+                            <img src="img/paypal-logo.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="caja newsletter">
+                    <h3 class="extraBoldMontse"><span>PROMOS Y OPORTUNIDADES </span> <br>EXCLUSIVAS</h3>
+                    <form action="" method="post" class="form">
+                        <input type="email" id="" name="" class="insertemail" placeholder="your@email.com">
+                        <i class="far fa-envelope"></i>
+
+                    </form>
+                    <p class="regularMonts">Suscríbete a nuestro newsletter para ser el primero en enterarte de nuestras
+                        novedades y ofertas
+                    </p>
+
+
+
+                </div>
+            </div>
+
+        </article>
+        <div class="copy">
+            <p>Powered by </p>
+            <a href="https://www.wantfrom.es/"> <img src="img/imagenesFooter/wf.png" alt=""></a>
+
+        </div>
+    </section>
+    <!-- FIN FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/fd8172713c.js" crossorigin="anonymous"></script>
+</body>
+
+<script>
+    ////// abrir y cerrar menu hamburguesa
+    let menu= document.getElementById("menu");
+    let iconClose =document.getElementById("close");
+    let menuCont= document.getElementById("contenido-menu");
+    let menuAbierto=false;
+
+    menu.addEventListener("click",function () {
+            menuCont.style.display="block" ;
+            iconClose.style.display="block";
+            menu.style.display="none";       
+
+    })
+    iconClose.addEventListener("click",function () {
+        menuCont.style.display="none" ;
+        iconClose.style.display="none";
+        menu.style.display="block";
+        menuAbierto=false;
+
+    })
+    ////// FIN abrir y cerrar menu hamburguesa
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () { myFunction() };
+    window.onload = function () { animation() };
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        //UN IF/ELSE POR CADA SECCION (scrolled es porcentaje que bajo, si son 3 a cada section le corresponde 33%)
+        if (scrolled > 20) {
+            var elmnt = document.getElementById('barra1');
+            elmnt.classList.add("barra-active")
+        } else {
+            var elmnt = document.getElementById('barra1');
+            elmnt.classList.remove("barra-active")
+        }
+
+
+        if (scrolled > 40) {
+            var elmnt = document.getElementById('barra2');
+            elmnt.classList.add("barra-active")
+            elmnt.style.borderBottom = "7px solid #C00;"
+        } else {
+            var elmnt = document.getElementById('barra2');
+            elmnt.classList.remove("barra-active")
+        }
+
+        if (scrolled > 60) {
+            var elmnt = document.getElementById('barra3');
+            elmnt.classList.add("barra-active")
+
+        } else {
+            var elmnt = document.getElementById('barra3');
+            elmnt.classList.remove("barra-active")
+
+        }
+
+        if (scrolled > 80) {
+            var elmnt = document.getElementById('barra4');
+            elmnt.classList.add("barra-active")
+        } else {
+            var elmnt = document.getElementById('barra4');
+            elmnt.classList.remove("barra-active")
+            document.getElementById("logo1").src = "img/logos/Logo-CelesteBlanco.svg";
+        }
+
+        if (scrolled > 72 && scrolled < 95) {
+            var elmnt1 = document.getElementById('logo1');
+            document.getElementById("logo1").src = "img/logos/LogoCOpiado1";
+        } else {
+            document.getElementById("logo1").src = "img/logos/LogoCOpiado1";
+        }
+
+        /*
+    if(scrolled > 100){
+            var elmnt = document.getElementById('barra5');
+        elmnt.classList.add("barra-active")
+    }
+    */
+    }
+
+    function myFunction2() {
+        var elmnt = document.getele('body');
+        var x = elmnt.scrollLeft;
+        var y = elmnt.scrollTop;
+        console.log('aca , ', y)
+    }
+
+
+
+    $("#navbarSupportedContent").click(
+        function (event) {
+            $('.navbar-collapse').collapse('hide');
+        }
+    );
+
+    $("#bodyContent").click(
+        function (event) {
+            console.log('323232332232323232323')
+            $('.navbar-collapse').collapse('hide');
+        }
+    );
+
+
+
+    function animation() {
+        let circ1 = document.getElementById("one");
+        let circ2 = document.getElementById("two");
+        let circ3 = document.getElementById("three");
+        let circ4 = document.getElementById("four");
+        let item1 = document.getElementById("item1");
+        let item2 = document.getElementById("item2");
+        let item3 = document.getElementById("item3");
+        let item4 = document.getElementById("item4");
+        let icon1 = document.getElementById("icon-step-1")
+        let icon2 = document.getElementById("icon-step-2")
+        let icon3 = document.getElementById("icon-step-3")
+        let icon4 = document.getElementById("icon-step-4")
+
+
+        circ1.style.transform = "scale(1.2)";
+        circ1.style.transform = "scale(1.4)";
+        item1.style.transform = "scale(1.05)";
+        icon1.style.display = "initial";
+        setTimeout(() => {
+            circ1.style.transform = "scale(1.2)";
+            circ1.style.transform = "scale(1)";
+            item1.style.transform = "scale(1)";
+            icon1.style.display = "none"
+
+            circ2.style.transform = "scale(1.2)";
+            circ2.style.transform = "scale(1.4)";
+            item2.style.transform = "scale(1.05)";
+            icon2.style.display = "initial"
+
+            setTimeout(() => {
+                circ2.style.transform = "scale(1.2)";
+                circ2.style.transform = "scale(1)";
+                item2.style.transform = "scale(1)";
+                icon2.style.display = "none"
+
+                circ3.style.transform = "scale(1.2)";
+                circ3.style.transform = "scale(1.4)";
+                item3.style.transform = "scale(1.05)";
+                icon3.style.display = "initial"
+
+                setTimeout(() => {
+                    circ3.style.transform = "scale(1.2)";
+                    circ3.style.transform = "scale(1)";
+                    item3.style.transform = "scale(1)";
+                    icon3.style.display = "none"
+
+
+                    circ4.style.transform = "scale(1.2)";
+                    circ4.style.transform = "scale(1.4)";
+                    item4.style.transform = "scale(1.05)";
+                    icon4.style.display = "initial";
+
+                    setTimeout(() => {
+                        circ4.style.transform = "scale(1.2)";
+                        circ4.style.transform = "scale(1)";
+                        item4.style.transform = "scale(1)";
+                        icon4.style.display = "none";
+
+
+                        animation();
+                    }, 1600);
+                }, 1600);
+            }, 1600);
+        }, 1600);
+    }
+
+</script>
+
+</html
