@@ -27,9 +27,10 @@
     $carta .= "Mensaje: $mensaje \n";
 
     ///// Enviando mensaje
-
     mail($destinatario, $asunto, $carta, $headers);
-    header('Location:msje-envio.html')
-    echo "The email message was sent.";
+    header('Location: msje-envio.html');
+    die();
+    // echo "The email message was sent.";
+    
 
 ?>

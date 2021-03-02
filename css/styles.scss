@@ -416,6 +416,7 @@ html, body {
 .section-home{
     width: 100%;
     height: 90vh;
+    max-height: 900px;
 }
 //////// FIN seccion 1
 
@@ -424,11 +425,14 @@ html, body {
   padding-bottom: 20px; 
   margin-bottom: -10px; 
   min-height: 122vh;
+  max-height: 900px;
+
 }
 .cont-sec-2{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
     #left, #right {
         min-height: 550px;
         max-height: 900px;
@@ -440,6 +444,7 @@ html, body {
         display: flex;
         flex-direction: column;
         position: relative;
+        margin-top: 40px;
         h2{
             color: #243f66;
             font-size: 45px;
@@ -530,7 +535,7 @@ html, body {
             }
         }
         .globos-img{
-          width: 55% !important;
+          width: 67% !important;
           max-width: 600px;
           min-width: 280px;
         }
@@ -545,7 +550,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -50px;
     .boton-download{
       width: 200px;
       height: 40px;
@@ -584,6 +589,8 @@ html, body {
 .sec-3{
   height: 100vh ;
   width: 100%;
+  max-height: 900px;
+
 }
 .cont-sec-3{
   margin-top: 25px;
@@ -736,6 +743,8 @@ html, body {
 ///// Seccion 4 //
 .sec-4{
   min-height:105vh; 
+  max-height: 900px;
+
   margin-bottom: -10px;
 }
 .left-faq{
@@ -1144,7 +1153,9 @@ html, body {
     .seccion2{
       padding-bottom: 0px; 
       margin-bottom: -10px; 
-      min-height: 122vh;
+      min-height: 170vh;
+      height: fit-content !important;
+      max-height: 1000px !important;
     }
     .cont-sec-2{
         width: 100%;
@@ -1153,13 +1164,14 @@ html, body {
 
         justify-content: space-between;
         #left, #right {
-            min-height: 600px;
+            
             display: flex;
             justify-content: center;
             align-items: center;
         }
         #left{
           position: unset;
+          min-height: 500px;
             h2{
                 font-size: 28px;
                 top: 6vh;
@@ -1187,7 +1199,7 @@ html, body {
         }
         #right{
           padding-top: 0;
-         
+          min-height: 550px;
             .cont-globos{
                 margin-top: -70px;
                 margin-right: 0px;
@@ -1250,7 +1262,7 @@ html, body {
     }
     .fila-2{
       .cont-btn-download{
-        margin-top: -320px !important;
+        margin-top: -350px !important;
         .boton-download{
           width: 180px;
           p{
@@ -1262,9 +1274,11 @@ html, body {
     //////// FIN Seccion 2
     ///// Seccion 3 
     .sec-3{
-      min-height: 100vh ;
       width: 100% !important;
       overflow: hidden !important;
+      min-height: 210vh;
+      height: fit-content !important;
+      max-height: 1300px !important;
     }
     .title-sec-3{
       font-size: 25px;
@@ -1452,8 +1466,14 @@ html, body {
     /////FIN  FOOTER
  }
 
- @media only screen and (min-width: 347px) and (max-width: 575.98px) {
-  
+ @media only screen and (min-width: 376px) and (max-width: 575.98px) {
+  .seccion2{
+    padding-bottom: 0px; 
+    margin-bottom: -10px; 
+    min-height: 150vh;
+    height: fit-content !important;
+    max-height: 800px !important;
+  }
   .cont-sec-2{
       padding-bottom: 60px;
       #left{
@@ -1475,8 +1495,9 @@ html, body {
           }
       }
       #right{
+        margin-top: 40px;
           .cont-globos{
-              margin-top: -40px;
+              margin-top: 0px;
               margin-right: 0px;
               width: 90%;
               .globo{
@@ -1517,6 +1538,10 @@ html, body {
               }
           }
       }
+  }
+  .sec-3{
+    min-height: 160vh;
+    max-height: 1100px !important;
   }
  }
 
@@ -1933,6 +1958,8 @@ html, body {
     //////// Seccion 2
     .seccion2{
       min-height: 112vh;
+      max-height: 900px !important;
+
     }
     .cont-sec-2{
         #left{
@@ -2041,6 +2068,7 @@ html, body {
     .sec-3{
       height: 100vh ;
       width: 100%;
+      max-height: 900px !important;
     }
     .cont-sec-3{
       margin-top: 75px;
@@ -2118,6 +2146,7 @@ html, body {
     .sec-4{
       min-height:105vh; 
       margin-bottom: -10px;
+      max-height: 900px !important;
     }
     .left-faq{
       position: relative;

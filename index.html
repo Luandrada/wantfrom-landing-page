@@ -733,6 +733,9 @@
     </body>
 
 <script>
+    $('.carousel').carousel({
+        interval:8000
+    })
     ////// abrir y cerrar menu hamburguesa
     let menu= document.getElementById("menu");
     let iconClose =document.getElementById("close");
@@ -755,9 +758,7 @@
     ////// FIN abrir y cerrar menu hamburguesa
 
     // When the user scrolls the page, execute myFunction
-    window.onload = function () { animation() };
-    window.onload =function () {botonDescargar()}
-    window.onload =function () {formulario()}
+    window.onload =function () {formulario();animation()}
     
     function myFunction2() {
         var elmnt = document.getele('body');
@@ -898,14 +899,7 @@
         }, 1600);
     }
 
-    function botonDescargar(){
-        let a = document.getElementById("descargar")
-        if(typeof a.download == "undefined"){
-            document.getElementById("btn-descargar").style.display="none"
-        }else{
-            console.log("sportado")
-        }
-    }
+   
 </script>
 
 </html

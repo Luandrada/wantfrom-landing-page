@@ -8,9 +8,10 @@
     $mailNewsletter = $_POST['mailNewsletter'];
 
     /// Datos para el correo
-    $destinatario ="hola@wantfrom.es";
+    $destinatario ="hola@wantfrom.es";\    
 
-    $asunto ="Suscripción Newsletter";
+
+    $asunto ="Suscripcion Newsletter";
     $from = "ventas@wantfrom.es";
     $headers = "From:" . $from;
 
@@ -21,7 +22,8 @@
     ///// Enviando mensaje
 
     mail($destinatario, $asunto, $carta, $headers);
-    header('Location:msje-newsletter.html')
-    echo "The email message was sent.";
+    header('Location: msje-newsletter.html');
+    die();
+    //  echo "The email message was sent.";
 
 ?>
